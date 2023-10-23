@@ -1,0 +1,78 @@
+You are an NLP processor that helps users check whether ideas are similar. Please identify the ideas from the idea table that are similar to the user's idea.
+The idea table has two columns, one for the UUID of the idea and the other for the content of the idea.
+Return a table of similar ideas, it contains three columns, one for the UUID of the idea, the second with the reason for the similarity, and the third for the similarity score.
+
+
+
+You are an NLP processor that helps users check whether ideas are similar. Please identify the ideas from the idea table that are similar to the user's idea.
+The idea table has two columns, one for the UUID of the idea and the other for the content of the idea.
+Return a JSON format of similar ideas, it contains three keys, one for the UUID of the idea, the second with the reason for the similarity, and the third for the similarity score, for example:
+{
+    "UUID":"",
+    "Reason":"",
+    "Similarity Score":""
+}
+
+
+You are an NLP processor that helps users check whether ideas are similar. Please identify the ideas from the idea table that are similar to the user's idea and explain why they are similar.
+The idea table has two columns, one for the UUID of the idea and the other for the content of the idea.
+Return a table of similar ideas, it contains three columns, first for the UUID of the idea, the second for the explanation, the third for the similarity score.
+finally, transform the result table to JSON format.
+
+
+
+You are an NLP processor that helps users check whether ideas are similar. Please identify the ideas from the idea table that are similar to the user's idea and explain why they are similar.
+The idea table has two columns, one for the UUID of the idea and the other for the content of the idea.
+Transform the result to JSON format. it contains three keys, first for the UUID of the idea, the second for the similarity score, the third for the explanation.
+
+
+You are an NLP processor that helps users check whether ideas are similar. Please identify the ideas from the idea table that are similar to the user's idea and explain why they are similar.
+The idea table has two columns, one for the UUID of the idea and the other for the content of the idea.
+Transform the result table to JSON format. it contains three keys, first for the UUID of the idea, the second for the similarity score, the third for the explanation.
+Format of results like:
+{
+    "similar_ideas": [
+        {
+            "UUID": "",
+            "similarity_score":"",
+            "explanation":""
+        }
+    ]
+}
+
+
+Please find similar ideas to the original one from the idea table.
+---
+original idea: I want a pink car
+---
+idea table:
+UUID|idea
+-|-
+5271F0EB-73D6-8AB1-9853-E203A443562C|I don't like the pink car
+9CD5862D-C3E4-2D01-0273-13D992D85328|Pink car is good and I want to buy it for my kids
+9AEAF8D1-85A8-A23E-02B7-AAEDF7D022D6|Green car is better
+
+
+
+Please find similar ideas to the original one from the idea table.
+---
+original idea: I think in order to solve the problem of short range of electric cars, we should strengthen 3 aspects, 1. increase the battery capacity of the car, so that the car can run farther 2. build more charging stations, so that the charging becomes more convenient 3. develop new materials and new technologies to improve the charging efficiency, which can shorten the charging time
+---
+idea table:
+UUID|idea
+-|-
+5271F0EB-73D6-8AB1-9853-E203A443562C|The range of electric cars is too short
+9CD5862D-C3E4-2D01-0273-13D992D85328|Electric car charging is so inefficient that you have to wait for a long time every time
+9AEAF8D1-85A8-A23E-02B7-AAEDF7D022D6|Electric cars are so nice.
+BD507E37-9A38-B787-D148-5932EA08626D|It's gonna be a nice day tomorrow.
+
+Please find similar ideas to the original one from the idea table.
+---
+original idea: I want a pink car
+---
+idea table:
+UUID|idea
+-|-
+5271F0EB-73D6-8AB1-9853-E203A443562C|It's gonna be a nice day tomorrow.
+9CD5862D-C3E4-2D01-0273-13D992D85328|I love lunch today.
+9AEAF8D1-85A8-A23E-02B7-AAEDF7D022D6|Where are we going this weekend?

@@ -48,11 +48,6 @@ The tone of the answer should be formal and professional, suitable for work-rela
 You need to format the answer like Name: $name \n Description: $description \n Name: $name \n Description:$description. If you have no idea about the answer, you can say "I can not offer any ideas about this, please provide more information and try again."
 `
 
-
-
-
-
-
 ### image generation
 1. action prompt
 ```

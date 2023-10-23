@@ -1,0 +1,71 @@
+Identify several groups of similar ideas from the table below.Give reasons why each group is similar. If an idea is not similar to others, it will be ignored.
+
+
+idea table:
+UUID|idea
+-|-
+5271F0EB-73D6-8AB1-9853-E203A443562C|The cat is sitting on the mat.
+1692157e-2217-425d-8bd8-2550c0e52e8f|I enjoy playing tennis.
+35204b64-b39c-4d1c-bfe2-5b48a78af2db|Where are we going this weekend?
+722e6c33-78f3-4f6c-adf1-0aca1525b542|I don't like the pink car
+9CD5862D-C3E4-2D01-0273-13D992D85328|I dislike swimming in the ocean.
+9AEAF8D1-85A8-A23E-02B7-AAEDF7D022D6|I have a pet dog.
+d40bab0d-6e84-4f63-ae84-506dd5a65b07|It's a beautiful day.
+5bf7ca99-6ea0-452c-b2eb-bd9ec074ef6e|I love lunch today.
+99c51aa4-92bf-415b-b022-4f18df092402|my mother want buy a new car
+a74bdb39-8c9d-4c01-a0f6-80d3a68c21ac|i want a pink car
+3c9c8024-7547-432a-97d9-f3cea4c6e48b|China's economy is growing fast.
+53120ab9-4385-4d35-a031-96d2364b74a3|The weather is pleasant today.
+b6a0625d-e321-4c29-a9a9-dbd007a96a9c|The feline is resting on the rug
+4e2941c4-580f-4689-96de-0d20e1fce2db|I like to play tennis.
+3188c2f8-c88f-4f51-961b-8d635dfcd2fd|It's a nice day outside.
+f6f004d6-9bd6-4af7-bf07-93167cd28cee|The grass is green.
+084a541b-62d0-47d1-a49d-8b8b03bdca8e|I don't enjoy swimming in the sea
+e6236f01-a262-4c14-97cb-ebc7848a7c10|I've been so tired these past few days that I don't want to go to work tomorrow
+0562c360-53d3-424c-bab4-090adec34240|The weather report says it's been nice lately, so I thought I'd go camping.
+6b322989-f681-49bc-8b2e-cf8e1256abfc|It's a long way from home to work. It's tiring to drive.
+
+
+The idea table contains two columns, one for the UUID of the idea and the other for the content of the idea."UUID" is only a technical field used to locate ideas and is not involved in similarity comparisons.
+The output must be in JSON format.Do not add other non-formatted data.
+
+
+The output must be in JSON format.
+Output example:
+{
+    "result":
+    [
+        {
+            "Reason":"",
+            "Group 1":[UUID1,UUID2...]
+        },
+        {
+            "Reason":"",
+            "Group 2":[UUID3,UUID4...]
+        }
+    ]
+}
+
+
+{
+    "Group 1":[
+        {
+            "UUID":"",
+            "idea":""
+        },
+        {
+            "UUID":"",
+            "idea":""
+        }
+    ],
+    "Group 2":[
+        {
+            "UUID":"",
+            "idea":""
+        },
+        {
+            "UUID":"",
+            "idea":""
+        }
+    ],
+}
