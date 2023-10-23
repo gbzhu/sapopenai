@@ -1,0 +1,17 @@
+###  测试数据
+1.
+    `In this campaign ideas for new soda flavors are collected.`
+    
+    `i do not like fruit`
+2.
+    `hello`
+3.
+    `what is the time now?`
+4.
+`We want to hear your ideas on how we can make our eScooters even better. We're looking for innovative, creative, and practical ideas that can improve the user experience, safety, and performance of our eScooters. Whether you're a daily rider, a casual user, or just someone who has ideas about how to improve products, we want to hear from you!Here are some areas where we would love to receive your ideas:1.Safety features: We are committed to providing the safest eScooter experience for our users. What safety features do you think we should add to our eScooters to make them even safer?2.User experience: We want to make our eScooters as user-friendly as possible. What features or functions do you think we should add to our eScooters to improve the user experience?3.Performance: We want to make our eScooters faster, more powerful, and more efficient. What technical improvements do you think we should make to our eScooters to improve their performance?4.Sustainability: We are committed to making our products as environmentally friendly as possible. What ideas do you have for making our eScooters more sustainable, such as using renewable energy or reducing waste?5.Accessibility: We want to make our eScooters accessible to everyone. What features or modifications do you think we should make to our eScooters to make them more accessible to people with disabilities or other special needs?We value your input and appreciate your help in making our eScooters the best they can be. Thank you for your participation!`
+
+`
+Are you passionate about shaping the future of transportation? Join us in revolutionizing the automotive industry by submitting your ideas for new electrical vehicles!Electric cars are the cutting-edge vehicles of the future, powered by electricity instead of fossil fuels. They utilize advanced battery technology to store energy, which is then used to power an electric motor. With zero tailpipe emissions, electric cars are environmentally friendly, reducing air pollution and combating climate change.Compared to traditional cars, electric vehicles offer numerous advantages. First and foremost, they are incredibly efficient, converting a higher percentage of energy from the grid to power the wheels. This efficiency translates into lower operating costs, as electric cars require less maintenance and have fewer parts that can wear out. Additionally, electric vehicles offer a smooth and quiet driving experience, with instant torque and acceleration. They also contribute to a quieter and less congested urban environment, as they produce minimal noise and can be charged at home or at public charging stations.Now is the perfect time to unleash your creativity and contribute to the future of electric vehicles. We encourage you to open your mind and submit your ideas for new features and trends in electric cars. Whether it's advanced battery technology, innovative charging solutions, autonomous driving capabilities, or futuristic designs, your ideas have the potential to shape the next generation of electric vehicles. Together, let's create a sustainable and exciting future of transportation.
+`
+
+    `Limited budget, need a more cost-effective solution`
